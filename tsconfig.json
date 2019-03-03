@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "outDir": "lib",
+      "lib": [ "es2016", "dom" ],
+      "types": ["reflect-metadata", "node"],
+      "typeRoots": ["node_modules/@types", "typings"],
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "jsx": "react",
+      "moduleResolution": "node"
+  },
+  "include": [
+    "./src", "../examples", "../src", "../typings"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "state",
+  "version": "0.0.1",
+  "description": "bla",
+  "author": "Mauricio",
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "sprotty": "^0.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^11.10.4",
+    "reflect-metadata": "^0.1.13",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "build": "yarn compile && webpack"
+  }
+}
